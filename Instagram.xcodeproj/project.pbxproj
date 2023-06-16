@@ -36,6 +36,7 @@
 		8CA824552A36FD460096EA5B /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA824542A36FD460096EA5B /* StorageManager.swift */; };
 		8CA824572A36FD580096EA5B /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA824562A36FD580096EA5B /* AnalyticsManager.swift */; };
 		8CA824592A36FD720096EA5B /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA824582A36FD720096EA5B /* HapticsManager.swift */; };
+		8CA8245B2A37070E0096EA5B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8CA8245A2A37070D0096EA5B /* GoogleService-Info.plist */; };
 		BBCC48BC451B9E1064DEC66B /* Pods_Instagram_InstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB1A3F4F4F71CE564766142 /* Pods_Instagram_InstagramUITests.framework */; };
 		BF9A05D0BE760A285C098DA4 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F44A0EA7D0DCBF44E9D8592 /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
@@ -95,6 +96,7 @@
 		8CA824542A36FD460096EA5B /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		8CA824562A36FD580096EA5B /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
 		8CA824582A36FD720096EA5B /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		8CA8245A2A37070D0096EA5B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A0D12797232569E4EEFEB3FF /* Pods-Instagram-InstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A595D6827D678371C593C543 /* Pods-Instagram-InstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B03D6458053159E1F64326E0 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
@@ -244,6 +246,7 @@
 		8CA8242F2A36EBEE0096EA5B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8CA8245A2A37070D0096EA5B /* GoogleService-Info.plist */,
 				8C48532A2A36E75D00298813 /* Assets.xcassets */,
 				8C4853212A36E75A00298813 /* AppDelegate.swift */,
 				8C4853232A36E75A00298813 /* SceneDelegate.swift */,
@@ -401,6 +404,7 @@
 			files = (
 				8C48532E2A36E75D00298813 /* LaunchScreen.storyboard in Resources */,
 				8C48532B2A36E75D00298813 /* Assets.xcassets in Resources */,
+				8CA8245B2A37070E0096EA5B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,7 +724,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S65LFLQ68C;
+				DEVELOPMENT_TEAM = J29ZBGFSET;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
@@ -734,7 +738,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nec.u2f.server.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezek.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -753,7 +757,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = S65LFLQ68C;
+				DEVELOPMENT_TEAM = J29ZBGFSET;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Instagram/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Instagram;
@@ -767,7 +771,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.nec.u2f.server.Instagram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.codezek.Instagram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
